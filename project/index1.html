@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/> -->
+    <title>Antiques</title>
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <!-- <link rel="stylesheet" href="/home/suhaas/Documents/DBMS mini pro/DBMS _code/css/style1.css">    
+     -->
+     <style type="text/css">
+                     
+
+                      @import url('https://fonts.googleapis.com/css?family=Grenze|Inconsolata|Lobster+Two|Mansalva|Pacifico|Patua+One|Roboto+Mono|Rubik+Mono+One|Sacramento&display=swap');
+
+                    
+    /*box-sizing:border-box;
+*/
+
+header,
+section{
+    overflow-x:hidden;
+}
+
+:root{
+  --Snigle-font:"Sniglet",cursive;
+  --Rublic:"Rubik",cursive;
+  --patua:"Patua One",cursive;
+  --Lobster:"Lobster",cursive;
+  --light-black:#2e2c2caf;
+  --bggradient:linear-gradient(
+               to bottom,
+               #dd2476,#ff512f);
+--light-gray:rgba(255,255,255,0)            
+}
+ 
+header a{
+    font-family:var(--Single-font);
+    font-size:0.9em;
+    color:whitesmoke;
+}
+
+header{ 
+    background:#dd2476;
+    background:var(--bggradient);
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background:white;
+    min-width:160px;
+    box-shadow:0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+}
+.dropdown-content a:hover{
+    background:#ddd; 
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+header .nav-item:last-child{
+    padding-right: 3em;
+    
+}
+
+
+header .nav-item:first-child{
+    padding-right: 1em;
+    padding-bottom: 4em;
+    margin-top:-5px;
+}
+
+
+header .nav-item{
+    padding:1em;
+}
+
+header .navbar-brand{
+    padding-left:8rem;
+}
+
+header .nav-link:hover{
+    color:black;
+}
+
+header .row .col-md-5{
+    padding:8vmin 3vmin;
+}
+
+header .row .col-md-7{
+    padding:22vmin 3vmin;
+    padding-bottom:50vmin;
+    font-family:var(--Rubik);
+    color:white;
+
+}
+
+header .row .col-md-5 img{
+    width:85%;
+}
+
+header .container .col-md-7 h6{
+    padding:1vmin;
+    letter-spacing:5px;
+}
+
+header .container .col-md-7 h1{
+    font-size:8.5vmin;
+    font-weight:bold;
+    padding:0.1em 0em;
+}
+
+header .container .col-md-7 p{
+    padding:1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius:30px;
+    font-weight:bold;
+}
+
+/*section 1*/
+
+.section-1{
+    padding:20vmin 0;
+    /* background-color:black; */
+    position: relative;
+    height:750px;
+    overflow:hidden;
+}
+
+.section-1 .row .col-md-6 .pray img{
+    opacity:0.8;
+    width:80%;
+    border-radius:0.2em;
+    height:450px;
+    margin-top:-50px;
+}
+
+.section-1 .row .col-md-6:last-child{
+    position:relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+    position:absolute;
+    top:25vmin;
+    left:-25vmin;
+    background:white;
+    border-radius:3px;
+    text-align:left;
+    padding:13vmin 5vmin 20vmin 10vmin;
+    box-shadow:0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family:var(--Rubik);
+    z-index:1;
+    margin-bottom:200px;
+    height:370px;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight:bold;
+    padding:0.4em 0;
+    font-size:2em;
+    margin-top:-60px;
+}
+
+.section-1 .row .col-md-6 .panel p{
+    font-size:0.9em;
+    color:rgba(0,0,0,0.5);
+}
+
+/*section 2*/
+
+.cover{
+    width:100%;
+    height:60vmin;
+    /* background:url('images/features1.jpg'); */
+    background-position: -30rem -28rem;
+    background-size:140%;
+    position:relative;
+}
+
+.cover .context{
+    background:var(--bggradient);
+    height:100%;
+    width:100%;
+    padding-top:19vmin;
+}
+
+.cover .context >h1{
+    font-family:var(--Patua);
+    font-size:6vmin;
+    color:whitesmoke;
+}
+
+.cover .context >p{
+    font-family:var(--Rubik);
+    font-size:2.5vmin;
+    color:#e5e5e5;
+}
+
+.numbers .rect{
+    position:relative;
+    z-index:1;
+    background:white;
+    width:17rem;
+    height:12rem;
+    padding-top:3.5vmin;
+    margin:1rem;
+    border-radius:.5em;
+    box-shadow:1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+
+.numbers{
+    margin-top:-15vmin;
+}
+
+.numbers .rect h1{
+    font-size:5rem;
+    color:tomato;
+}
+
+.numbers .rect p{
+    font-family:var(--Patua);
+}
+
+
+.section-3{
+    height:70vmin;
+    margin-top:15vmin;
+    background:var(--bggradient);
+}
+
+.section-3 .col-md-12 >h1{
+    padding:2em 0 0.5em 0;
+    color:whtesmoke;
+    font-size:6vmin;
+}
+
+.section3 .col-md-12 >p{
+    padding:0.4em;
+    padding-bottom:2em;
+    color:var(--light-gray);
+    font-size:3vmin;
+}
+
+.section-3 .desktop{
+    background:white;
+    display:inline-block;
+    border-radius:3em;
+    padding:2vmin 4.5vmin;
+    margin:1em;
+}
+
+.section-3 .desktop h3{
+    font-size:4vmin;
+}
+
+.section-3 .desktop p{
+    font-size:2vmin;
+}
+
+/*section 4*/
+
+.section-4 .container h1{
+    font-size:6vmin;
+    padding-top:14vmin;
+}
+
+.section-4 .team{
+    padding:10vmin 4vmin;
+}
+
+.section-4 .card{
+    width:22rem;margin-top:10vmin;
+}
+
+.secction-4 .card .card-text{
+    padding:0.5em;
+}
+
+.section-4 .card .card-body >a{
+    font-size:1.5em;
+}
+
+.section-4 .carousel-item{
+    padding-left:3rem;
+}
+
+.border-radius{
+    border-radius:340px;
+    width:60%;
+}
+
+
+/*foooottteerrrrr*/
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x:hidden;
+    padding:14vmin 18vmin;
+}
+
+footer p>span{
+    color:#ff512f;
+}
+
+footer input{
+    border:none !important;
+}
+
+footer input:placeholder{
+    color:white !important;
+}
+
+footer .input-group .input-group-text{
+    background:var(--bggradient);
+    border:none;
+}
+
+footer .column i{
+    color:#dd2476;
+}
+
+footer .column i+i{
+ padding:0 0.5em;
+}
+     </style>
+
+
+    <script src="https://kit.fontawesome.com/347554e2c7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+
+    <header>
+    
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="#">
+            <!--company logo here-->      
+               <!--   <img src=".png" alt="sometext" width="60" height="40">  -->
+               <i class="fas fa-balance-scale fa-2x mx-2"></i>
+               iANTRIX</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"> </div>
+                  <ul class="navbar-nav">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html"> Home </a>
+                    </li>
+
+                    <!-- <span class="sr-only">(current)</span> -->
+
+
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Sign-In</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                     <div class="dropdown">
+                         <a href="#" class="nav-link"></a>
+                        <div class="dropdown-content">
+                            <a href="#">Generic</a>
+                            <a href="#">GrandPrice</a>
+                        </div>
+                     </div>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a  href="signin.php">SignIN</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  href="signup.php">SignUp</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  href="aboutus.html">About us</a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              </nav>
+
+        </div>
+
+     <div class="container text-center">
+       <div class="row">
+           <div class="col-md-7 col-sm-12">
+           <h6>AN ONLINE PURCHASE PORTAL</h6>
+           <h1>iANTRIX</h1>
+           <p>
+                Heyyaa! you are the right spot to checkin and for the most wanted things. Here you are allowed to create your own acoounts and purchase the antiques. It's all yours check-out for the antiques and grab it if you want to own it.
+                At best price you can own the best antique across the world. Wooh!
+            </p>
+            <button  class="btn-btn-light px-5 py-2" onclick="window.location.href='signup.php'">let's login</button>
+           </div>
+           <div class="col-md-5 col-sm-12 h-35">
+               <img src="images/diamond.png" alt="diamond" height="400" width="400">
+           </div>
+          
+          </div> 
+    </div>
+   </header>
+
+  
+    <main>
+      <section class="section-1">
+
+           <div class="container text-center">
+               <div class="row">
+                   <div class="col-md-6 h-40 p-5">
+                       <div class="pray">
+                            <img src="images/monalisa.jpg" alt="monalisa"  >
+                       </div>
+                     </div>
+                   <div class="col-md-6">
+                       <div class="panel text-left">
+                           <h1>Monalisa</h1>
+                          <p class="pt-4">
+                                   Monalisa the most beautifull portrait ever drawn.It is considered an archetypal masterpiece of the Italian Renaissance, and has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world." The Mona Lisa is also one of the most valuable paintings in the world. 
+                            </p>
+                          <p>
+                                  Leonardo da Vinci had begun working on a portrait of Lisa del Giocondo, the model of the Mona Lisa, by October 1503. It is believed by some that the Mona Lisa was begun in 1503 or 1504 in Florence. Although the Louvre states that it was "doubtless painted between 1503 and 1506", art historian Martin Kemp says that there are some difficulties in confirming the dates with certainty.
+                       </div>
+
+                   </div>
+               </div>
+           
+           
+              </div>
+
+
+      </section> 
+ 
+<!---something unquie about us -->
+      <section class="section-2 container-fluid p-0">
+         <div class="cover">
+             <div class="context text-center">
+               
+                <h1>Something unique about us</h1>
+                <p>
+                    We work hard to enhance a great user friendly environment and for being the best trustworthy website.
+                </p>
+             </div>
+         </div>
+         <div class="container-fluid text-center">
+             <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                 <div class="rect">
+                     <h1> 6452 </h1>
+                     <p>happy client</p>
+                 </div>
+                 <div class="rect">
+                     <h1> 5678 </h1>
+                     <p>cups</p>
+                 </div>
+                 <div class="rect">
+                     <h1>845</h1>
+                     <p>bookings</p>
+                 </div>
+                 <div class="rect">
+                     <h1>9475</h1>
+                     <p>sales</p>
+                 </div>
+             </div>
+         </div>
+
+                   <!--      -bid whatever you want    -->
+         <!-- <div class="purchase text-center">
+           <h1>Bid whatever you want</h1>
+           <p>All range of antiques are available here, you are the best portal! Wooooh!!</p>
+           <div class="cards">
+             <div class="d-flex flex-row justify-content-center flex-wrap"> -->
+
+
+                         <!--First card-->
+                         
+               <!-- <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                        <h5 calss="card-title">Check-in</h5>
+                    </div>
+                         <p class="card-text">
+                           enter into the portal
+                         </p>
+                         <div class="pricing">
+                           <h1>100/-</h1>
+                           <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                              Book now
+                            </a>
+                         </div>
+                  </div>
+               </div> -->
+
+
+                         <!--Second card-->
+               <!-- <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                        <h5 calss="card-title">OSAC</h5>
+                    </div>
+                         <p class="card-text">
+                           On Spot AuCtion
+                         </p>
+                         <div class="pricing">
+                           <h1>150/-</h1>
+                           <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                              Book seat
+                            </a>
+                         </div>
+                  </div>
+               </div> -->
+
+
+                   <!--Third card-->
+               <!-- <div class="card">
+                  <div class="card-body">
+                    <div class="title">
+                        <h5 calss="card-title">E-copy</h5>
+                    </div>
+                         <p class="card-text">
+                           list of antiques available
+                         </p>
+                         <div class="pricing">
+                           <h1>200/-</h1>
+                           <a href="#" class="btn btn-dark px-5 py-2 mb-5">
+                             Download Now
+                            </a>
+                         </div>
+                  </div>
+               </div>
+               
+               
+             </div>
+           </div>
+         </div> -->
+
+      </section>
+
+      <!-- <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h1>Download our app for all platform</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur
+            </p>
+          </div>
+        </div>
+       <div class="platform row"> 
+          <div class="col-md-6 col-sm-12 text-right">
+           <div class="desktop shadow-lg">
+            <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                  <div class="text text-left">
+                      <h3 class="pt-1 m-0">Desktop</h3>
+                      <p class="p-0 m-0">on website(comming soon)</p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          <div class="col-md-6 col-sm-12 text-left">
+            <div class="desktop shadow-lg">
+              <div class="d-flex flex-row justify-content-center">
+                  <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                    <div class="text text-left">
+                        <h3 class="pt-1 m-0">On Mobile</h3>
+                        <p class="p-0 m-0">on playstore(comming soon)</p>
+                    </div>
+                  </div>
+               </div>
+          </div>
+       </div>
+        </section> -->
+
+
+        <!--Customer review-->>
+
+        
+      <section class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">What our customers says about us</h1>
+          <p>Customer Review.</p>
+        </div>
+    <!--   <h1 class="text-center">Our Team</h1>     -->
+        <div class="team row">
+            
+          <div class="col-md-4 col-12 text-center">
+            
+              <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                  <img src="images\download1.jpg" alt="Member" class="img-fluid border-radius p-4"/>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Ross</h3>
+                  <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+    <!--              <a href="#" class="text-secondary text-decoration">Go somehwere</a>            -->
+                  <p class="text-black-50">Trusted Customer</p>   
+                </div> 
+              </div>
+            </div>
+
+
+          <div class="col-md-4 col-12">
+             <!--Carousel started-->
+             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                  <!--Card 2-->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                      <div class="card-img-top">
+                        <img src="images\images.jpg" alt="Member" class="img-fluid">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Chandler</h3>
+                        <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+                <!--        <a href="#" class="text-secondary text-decoration">Go somewhwere</a>    -->
+                        <p class="text-black-50">on 21 July</p>   
+                      </div> 
+                    </div>
+                   </div>      -
+
+                <div class="carousel-item text-center">
+                   <!-- Card 4-->
+                   <div class="card mr-2 d-inline-block shadow-lg">
+                      <div class="card-img-top">
+                        <img src="images\monica.jpg" alt="Member" class="img-fluid "/>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Monica</h3>
+                        <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+       <!--                 <a href="#" class="text-secondary text-decoration">Go somewhwere</a>     -->
+                        <p class="text-black-50">Joined today</p>   
+                      </div> 
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item text-center">
+                    <!--Card 5-->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                          <img src="images\phoebe.jpg" alt="Member" class="img-fluid "/>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title">Phoebe</h3>
+                          <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+         <!--                 <a href="#" class="text-secondary text-decoration">Go somewhwere</a>     -->
+                          <p class="text-black-50">Joined today</p>   
+                        </div> 
+                      </div>
+                    </div>
+
+                    <div class="carousel-item text-center">
+                         <!--Card 6-->
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                          <img src="images\joey.jpg" alt="Member" class="img-fluid "/>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title">Joey</h3>
+                          <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+         <!--                 <a href="#" class="text-secondary text-decoration">Go somewhwere</a>     -->
+                          <p class="text-black-50">Joined today</p>   
+                        </div> 
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="col-md-4 col-12 text-center">
+            <!--card 7-->
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                  <img src="images\download.jpg" alt="Member" class="img-fluid border-radius p-4"/>
+                </div>
+                <div class="card-body text-center">
+                  <h3 class="card-title">Rachel</h3>
+                  <p class="card-text">This is a great platform for us to bid things, and there is regular remainders available here so that we can enhance our cryptocurency</p>
+   <!--               <a href="#" class="text-secondary text-decoration">Go somewhwere</a>                       -->
+                  <p class="text-black-50">Trusted Customer</p>   
+                </div> 
+              </div>
+
+          </div>
+         </div>
+      </section>       
+
+    </main>
+    <!--Fooooooooterrrr-->
+    <footer>
+        <div class="container-fluid p-0">
+          <div class="row text-left">
+            <div class="col-md-5 col-md-5">
+             <h1 class="text-light">About us</h1>
+             <p class="text-muted">Lorem, ipsum dolor adfjh hfiuakad huhdhasdf hhdfy 
+             </p>
+             <p calss="pt-4 text-muted"> 
+               Copyright @2018 All rights reserved!
+               <span>iANTRIX</span>
+             </p>
+            </div>
+            <div class="col-md-5">
+
+              <h4 class="text-light">News letter</h4>
+              <p class="text-muted">Stay Updated</p>
+              <form class="form-inline">
+                <div class="col pl-">
+                  <div class="input-group pr-5">
+                    <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                    <div c;ass="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fas fa-arrow-right"> </i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+            <div class="col-md-2 col-sm-12">
+
+              <h4 class="text-light">Follow US</h4>
+              <p class="text-muted">Let us be Social</p>
+              <div class="column">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/home/suhaas/Documents/DBMS mini pro/DBMS _code/js/main.js"></script>
+</body>
+</html>
