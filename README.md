@@ -1,5 +1,5 @@
 # iANTRIX
-An Web-app project
+A simple web-app project. Built using HTML, CSS, PHP, MySQL
 
 ## steps
 1. start **apache** server(using xampp)
