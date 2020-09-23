@@ -7,4 +7,4 @@ A simple web-app project. Built using HTML, CSS, PHP, MySQL
 3. create a database accordingly (**Database** folder contains the details)
 4. `localhost/project/index1.html` in any browser 
 
-### you need to have an internet connection to have proper UI.
+### you need to have an internet connection to have proper UI. checking
