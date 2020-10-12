@@ -1,5 +1,6 @@
 # iANTRIX
-A simple web-app project. Built using HTML, CSS, PHP, MySQL
+A simple mini-project on e-commerce website for Antiques.  
+Tech-stack : HTML, CSS, PHP, MySQL.
 
 ### Screenshots
 
@@ -7,6 +8,8 @@ A simple web-app project. Built using HTML, CSS, PHP, MySQL
 ![Home Page](screenshots/homepage.png?raw=true "HomePage")
 ![Home Page2](screenshots/homepage2.png?raw=true )
 ![Home Page](screenshots/homepage3.png?raw=true )
+![Home Page](screenshots/footer.png?raw=true )
+
 
 #### Create Account
 ![Create account](screenshots/createacc.png?raw=true )
