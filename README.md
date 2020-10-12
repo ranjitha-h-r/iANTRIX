@@ -12,5 +12,25 @@ NOTE : you need to have an internet connection to have proper UI.(api's are used
 
 ### Screenshots
 
+#### Home Page
 ![Home Page](screenshots/homepage.png?raw=true "HomePage")
 ![Home Page2](screenshots/homepage2.png?raw=true )
+![Home Page](screenshots/homepage3.png?raw=true )
+
+#### Create Account
+![Create account](screenshots/createacc.png?raw=true )
+
+#### Antique Page
+![Antique](screenshots/antiquepage.png?raw=true )
+
+#### Booking Page
+![Booking](screenshots/booking.png?raw=true )
+
+#### Payment Page
+![Payment](screenshots/payment.png?raw=true )
+
+#### Confirmation Page
+![Confirmation](screenshots/confirm.png?raw=true )
+
+
+
