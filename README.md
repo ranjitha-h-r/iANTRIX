@@ -12,5 +12,5 @@ NOTE : you need to have an internet connection to have proper UI.(api's are used
 
 ### Screenshots
 
-![Home Page](screenshots/homepage.png?raw=true )
+![Home Page](screenshots/homepage.png?raw=true "HomePage")
 ![Home Page2](screenshots/homepage2.png?raw=true )
