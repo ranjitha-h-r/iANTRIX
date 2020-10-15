@@ -261,8 +261,7 @@ color:white;
       //  echo "<br>";
 
 
-      //  echo "&nbsp";echo "&nbsp";echo "&nbsp";
-      // echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";  echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";
+    
       echo "<div class=\"des\">";
       echo "<p>";
       echo " Antique price  &nbsp:&nbsp";
@@ -273,10 +272,7 @@ color:white;
 
 
       echo " <input type=\"hidden\" name=\"antiquename\" value=\"$row[1]\" > ";
-      // echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";
-      // echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";echo "&nbsp";
-      // echo "<br>";
-      // echo "<br>";
+    
       // echo " <input type=\"text\" name=\"button\" value=\"your price\" > ";
       // echo "<br>";
       // echo "<br>";

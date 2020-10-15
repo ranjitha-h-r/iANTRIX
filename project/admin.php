@@ -241,15 +241,12 @@ h2{
     </h3>
      <p>
 
-                        </div>
+   </div>
+        </div>
 
-                    </div>
-
-                </div>
+         </div>
 
             </div>
-
-
         </section>
 
     </main>
